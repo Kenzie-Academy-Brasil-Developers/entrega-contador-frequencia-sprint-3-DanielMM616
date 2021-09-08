@@ -1,0 +1,102 @@
+html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 16, 231);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 305px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+textarea {
+    width: 280px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(175, 101, 245);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgb(74, 42, 104);
+}
+
+h2 {
+    color: white;
+    width: 300px;
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+}
+
+#lettersDiv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+#lettersDiv span {
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    width: 40%;
+}
+
+#wordsDiv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+#wordsDiv span {
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    width: 40%;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 750px;
+    }
+}
